@@ -118,7 +118,7 @@ const middleElement = array => {
  * @returns {*}
  */
 
-const lastElementIndexing = () => {};
+const lastElementIndexing = array => array[array.length - 1]
 
 /**
  * Takes in an array and returns the first element without altering or mutating the array
