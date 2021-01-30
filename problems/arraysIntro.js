@@ -55,7 +55,10 @@ const arrayLength = array => array.length
  * @returns {string[]}
  */
 
-const removeFirst = () => {};
+const removeFirst = fruits => {
+  fruits.shift()
+  return fruits
+};
 
 /**
  * Removes and returns the first fruit in an array of fruits.
