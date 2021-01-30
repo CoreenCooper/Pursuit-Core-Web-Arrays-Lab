@@ -102,7 +102,19 @@ const largerArray = (array1, array2) => {
  * @returns {*|Array}
  */
 
-const middleElement = () => {};
+const middleElement = array => {
+  if (array.length % 2 !== 0) {
+    return array[(array.length - 1) / 2]
+  } else {
+    return array[array.length / 2 - 1] , array[array.length / 2]
+  }
+};
+
+console.log(middleElement([1, 2, 3, 4, 5]))
+console.log(middleElement(["bird", "cat", "whale"]))
+console.log(middleElement([1, 2, 3, 4, 5, 6]))
+console.log(middleElement(["bird", "cat", "whale", "snake"]))
+
 
 /**
  * Takes in an array and returns the last element without altering or mutating the array
