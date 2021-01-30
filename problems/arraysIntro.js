@@ -47,7 +47,7 @@ const removeLastandReturnLast = fruits => fruits.pop()
  * @returns {number}
  */
 
-const arrayLength = () => {};
+const arrayLength = array => array.length
 
 /**
  * Removes the first fruit in an array of fruits and returns the array.
