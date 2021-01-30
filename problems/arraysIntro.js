@@ -85,7 +85,15 @@ const arrayToString = fruits => fruits.join("$")
  * @returns {string|Array}
  */
 
-const largerArray = () => {};
+const largerArray = (array1, array2) => {
+  if (array1.length === array2.length) {
+    return "They are the same size"
+  } else if (array1.length > array2.length) {
+    return array1
+  } else {
+    return array2
+  }
+};
 
 /**
  * Takes in an array and returns the middle element.
