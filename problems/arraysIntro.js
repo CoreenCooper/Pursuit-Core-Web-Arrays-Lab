@@ -4,7 +4,11 @@
  * @param {string} fruit
  * @returns {string[]}
  */
-function addFruitToEnd() {}
+
+const addFruitToEnd = (fruits, fruit) => {
+  fruits.push(fruit);
+  return fruits;
+};
 
 /**
  * Adds a fruit to the front of an array of fruits and returns the array.
@@ -12,49 +16,59 @@ function addFruitToEnd() {}
  * @param {string} fruit
  * @returns {string[]}
  */
-function addFruitToFront() {}
+
+const addFruitToFront = (fruits, fruit) => {
+  fruits.unshift(fruit)
+  return fruits
+};
 
 /**
  * Removes the last fruit from an array of fruits and returns the array.
  * @param {string[]} fruits
  * @returns {string[]}
  */
-function removeLast() {}
+
+const removeLast = () => {};
 
 /**
  * Removes and returns the last fruit from from an array of fruits
  * @param {string[]} fruits
  * @returns {string} The fruit that was removed
  */
-function removeLastandReturnLast() {}
+
+const removeLastandReturnLast = () => {};
 
 /**
  * Takes in an array and returns the length
  * @param {Array} array
  * @returns {number}
  */
-function arrayLength() {}
+
+const arrayLength = () => {};
 
 /**
  * Removes the first fruit in an array of fruits and returns the array.
  * @param {string[]} fruits
  * @returns {string[]}
  */
-function removeFirst() {}
+
+const removeFirst = () => {};
 
 /**
  * Removes and returns the first fruit in an array of fruits.
  * @param {string[]} fruits
  * @returns {string} The fruit that was removed
  */
-function removeFirstandReturnFirst() {}
+
+const removeFirstandReturnFirst = () => {};
 
 /**
  * Returns a string made by joining all of the elements in an array of fruits with a '$' character.
  * @param {string[]} fruits
  * @returns {string}
  */
-function arrayToString() {}
+
+const arrayToString = () => {};
 
 /**
  * Takes in two arrays. And returns the longer array.
@@ -64,7 +78,8 @@ function arrayToString() {}
  * @param {Array} array2
  * @returns {string|Array}
  */
-function largerArray() {}
+
+const largerArray = () => {};
 
 /**
  * Takes in an array and returns the middle element.
@@ -72,21 +87,24 @@ function largerArray() {}
  * @param {Array} array
  * @returns {*|Array}
  */
-function middleElement() {}
+
+const middleElement = () => {};
 
 /**
  * Takes in an array and returns the last element without altering or mutating the array
  * @param {Array} array
  * @returns {*}
  */
-function lastElementIndexing() {}
+
+const lastElementIndexing = () => {};
 
 /**
  * Takes in an array and returns the first element without altering or mutating the array
  * @param {Array} array
  * @returns {*}
  */
-function firstElementIndexing() {}
+
+const firstElementIndexing = () => {};
 
 module.exports = {
   addFruitToEnd,
