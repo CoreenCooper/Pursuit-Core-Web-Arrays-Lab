@@ -66,7 +66,7 @@ const removeFirst = fruits => {
  * @returns {string} The fruit that was removed
  */
 
-const removeFirstandReturnFirst = () => {};
+const removeFirstandReturnFirst = fruits => fruits.shift()
 
 /**
  * Returns a string made by joining all of the elements in an array of fruits with a '$' character.
