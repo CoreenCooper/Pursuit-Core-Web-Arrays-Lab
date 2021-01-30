@@ -126,7 +126,7 @@ const lastElementIndexing = array => array[array.length - 1]
  * @returns {*}
  */
 
-const firstElementIndexing = () => {};
+const firstElementIndexing = array => array[0]
 
 module.exports = {
   addFruitToEnd,
