@@ -74,7 +74,7 @@ const removeFirstandReturnFirst = fruits => fruits.shift()
  * @returns {string}
  */
 
-const arrayToString = () => {};
+const arrayToString = fruits => fruits.join("$")
 
 /**
  * Takes in two arrays. And returns the longer array.
